@@ -3,21 +3,6 @@
 // C++ program to find count of distinct nodes
 // on a path with maximum distinct nodes.
 #include "stdc++.h"
-
-//#include <stdio.h>
-//#include <stdlib.h>
-
-// For Queue Size
-//#define SIZE 50
-
-//using namespace std;
- 
-// A node of binary tree
-/*struct Node {
-    int data;
-    struct Node *left, *right;
-};*/
- 
  
 int largestUinquePathUtil(Node* node, unordered_map<int, int> m)
 {
@@ -53,16 +38,6 @@ int largestUinquePath(Node *node)
     // return max length unique value path
     return largestUinquePathUtil(node, hash);
 }
-
-/*
-// tree creation
-// A queue node
-struct Queue
-{
-    int front, rear;
-    int size;
-    struct Node **array;
-};*/
  
 // A utility function to create a new tree node
 struct Node *newNode(int data)
@@ -193,98 +168,21 @@ void levelOrder(struct Node *root)
     }
 }
 
-int solution(){//int N){
-  // int n = 0;
-  //return n = N;
+int solution(){
 
     struct Node *root = NULL;
     struct Queue *queue = createQueue(SIZE);
     int i;
  
-    for(i = 1; i <= 12; ++i){
-        #if defined( GTEST_SAMPLES_SAMPLE1_H_ )
-           
-        #endif
+    for(i = 1; i <= 12; ++i)  
         insert(&root, i, queue);
-    }
- 
+    
     levelOrder(root);
-   
-    //cout << endl;
+    
+    cout << endl;
+    cout << endl;
     int max = largestUinquePath(root);
+    cout << "Max Distinct Path from Root to Leaf is: " << max << endl;
     return max;
 
 }
- 
-// Driver program to test above functions
-//int main()
-//{
-    // Create binary tree shown in above figure
-    /*Node* root = newNode(4);
-    root->left = newNode(5);
-    root->right = newNode(6);
-    root->left->left = newNode(4);
-    root->left->left->left = newNode(5);
-    root->right->left = newNode(1);
-    root->right->right = newNode(6);*/
-
-  
-    // this should be inside a method called solution(int N){}
-  /*  struct Node *root = NULL;
-    struct Queue *queue = createQueue(SIZE);
-    int i;
- 
-    for(i = 1; i <= 12; ++i)
-        insert(&root, i, queue);
- 
-    levelOrder(root);
-   
-    cout << endl;
-    cout << largestUinquePath(root) << endl;*/
-
-    //To Do:
-    // Test Case: is empty?
-    // ...
- 
-//  return 0;
-//}
-
-
-/*
-
-// Returns n! (the factorial of n).  For negative n, n! is defined to be 1.
-int Factorial(int n) {
-  int result = 1;
-  for (int i = 1; i <= n; i++) {
-    result *= i;
-  }
-
-  return result;
-}
-
-// Returns true iff n is a prime number.
-bool IsPrime(int n) {
-  // Trivial case 1: small numbers
-  if (n <= 1) return false;
-
-  // Trivial case 2: even numbers
-  if (n % 2 == 0) return n == 2;
-
-  // Now, we have that n is odd and n >= 3.
-
-  // Try to divide n by every odd number i, starting from 3
-  for (int i = 3; ; i += 2) {
-    // We only have to try i up to the square root of n
-    if (i > n/i) break;
-
-    // Now, we have i <= n/i < n.
-    // If n is divisible by i, n is not prime.
-    if (n % i == 0) return false;
-  }
-
-  // n has no integer factor in the range (1, n), and thus is prime.
-  return true;
-}
- */
-
-
