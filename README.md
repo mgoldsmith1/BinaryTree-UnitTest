@@ -3,7 +3,7 @@
 Finds the Max Distinct Path of a Binary tree from root to leaf in C++.
 
 ## Unit Testing
-This project uses the Google Test framework
+This project uses the Google C++ Test framework
 
 ## Instructions
 From the BinaryTree-UnitTest directory:
