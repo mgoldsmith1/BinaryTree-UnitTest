@@ -1,6 +1,6 @@
 # BinaryTree-UnitTest
 
-Finds MaxDistinctPath of a Binary tree in C++.
+Finds the Max Distinct Path of a Binary tree from root to leaf in C++.
 
 ## Unit Testing
 This project uses the Google Test framework
