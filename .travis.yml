@@ -1,0 +1,14 @@
+sudo: false
+
+language:
+  - cpp
+
+script:
+  - ./build.sh
+  - ./run.sh
+  - ./clean.sh
+ 
+
+
+notifications:
+  email: false
