@@ -1,6 +1,7 @@
-sudo: false
-
 os: osx
+
+compiler:
+ - gcc
 
 language:
   - cpp
