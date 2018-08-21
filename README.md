@@ -1,3 +1,4 @@
+![screenshot](https://travis-ci.org/mgoldsmith1/BinaryTree-UnitTest.svg?branch=master)
 # BinaryTree-UnitTest
 
 Finds the Max Distinct Path of a Binary tree from root to leaf in C++.
