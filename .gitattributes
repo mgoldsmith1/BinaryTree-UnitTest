@@ -1,3 +1,5 @@
-build.sh linguist-generated=Shell
-run.sh linguist-generated=Shell
-clean.sh linguist-generated=Shell
+* text=auto eol=lf whitespace=trailing-space,-indent-with-non-tab,tab-in-indent,tabwidth=4
+
+*.sh text linguist-language=Shell
+
+Makefile text whitespace=indent-with-non-tab,-tab-in-indent,tabwidth=8 linguist-language=Makefile
