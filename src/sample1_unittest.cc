@@ -7,7 +7,7 @@
 
 namespace {
 
-  // Tests Binary Tree for Max Distinct Path Value
+  // Tests Binary Tree for the maximum distinct path value from root to leaf
   TEST(BinartTreeTest, Trivial) {
     EXPECT_EQ(4, solution());
   }
