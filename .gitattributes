@@ -7,6 +7,8 @@ gtest-printers.h text linguist-language=Shell
 gtest-spi.h text linguist-language=Shell
 gtest-test-part.h text linguist-language=Shell
 gtest-typed-test.h text linguist-language=Shell
+gtest.h text linguist-language=Shell
+gtest_pred_impl.h text linguist-language=Shell
 
 *.cc text linguist-language=C++
 
