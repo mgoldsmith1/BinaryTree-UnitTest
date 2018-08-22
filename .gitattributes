@@ -2,7 +2,8 @@
 
 gtest-death-test.h text linguist-language=Shell
 gtest-message.h text linguist-language=Shell
-gtest-param-test.h text linguist-language=Shell
+gtest-param-test.h text linguist-language=Makefile
+
 
 *.cc text linguist-language=C++
 
