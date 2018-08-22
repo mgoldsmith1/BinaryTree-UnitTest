@@ -1,1 +1,3 @@
+build.sh linguist-generated=Shell
 run.sh linguist-generated=Shell
+clean.sh linguist-generated=Shell
