@@ -1,4 +1,5 @@
 #include "sample1.h"
+#include "gtest/gtest.h"
 
 // C++ program to find count of distinct nodes
 // on a path with maximum distinct nodes.
@@ -185,4 +186,9 @@ int solution(){
     cout << "Max Distinct Path from Root to Leaf is: " << max << endl;
     return max;
 
+}
+
+GTEST_API_ int main(int argc, char *argv[]){
+  testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
 }
