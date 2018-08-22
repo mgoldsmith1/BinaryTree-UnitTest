@@ -1,4 +1,4 @@
-#include "sample1.h"
+#include "header.h"
 #include "gtest/gtest.h"
 
 // C++ program to find count of distinct nodes

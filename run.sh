@@ -1,3 +1,8 @@
+echo Building...
+./build.sh
+echo Build Complete.
+echo Running...
 cd make
-./sample1_unittest
+./unittest
 cd ..
+echo Complete.

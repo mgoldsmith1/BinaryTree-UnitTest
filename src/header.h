@@ -1,8 +1,9 @@
-#ifndef GTEST_SAMPLES_SAMPLE1_H_
-#define GTEST_SAMPLES_SAMPLE1_H_
+#ifndef HEADER_H
+#define HEADER_H
 
 #define SIZE 50
 #include<unordered_map>
+
 using  namespace std;
 
 struct Node {
