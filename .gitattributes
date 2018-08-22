@@ -1,6 +1,8 @@
 * text=auto eol=lf whitespace=trailing-space,-indent-with-non-tab,tab-in-indent,tabwidth=4
 
 gtest-death-test.h text linguist-language=Shell
+gtest-message.h text linguist-language=Shell
+
 *.cc text linguist-language=C++
 
 *.sh text linguist-language=Shell
