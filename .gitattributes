@@ -1,1 +1,3 @@
-Makefile linguist-language=Makefile
+* text=auto
+
+Makefile text
