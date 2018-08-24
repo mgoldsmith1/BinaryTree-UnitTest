@@ -174,9 +174,39 @@ int solution(){
     struct Node *root = NULL;
     struct Queue *queue = createQueue(SIZE);
     int i;
- 
+
+    cout << endl;
+    cout << "Given an input: ";
+
+    //2^l where l = level thus 2^level0= 1, 2^level1 = 2, ..., 2^leveln
     for(i = 1; i <= 12; ++i)  
         insert(&root, i, queue);
+    
+    levelOrder(root);
+    
+    cout << endl;
+    cout << endl;
+    int max = largestUinquePath(root);
+    cout << "Max Distinct Path from Root to Leaf is: " << max << endl;
+    return max;
+
+}
+
+int solution2(){
+
+    struct Node *root = NULL;
+    struct Queue *queue = createQueue(SIZE);
+    int i;
+
+    cout << endl;
+    cout << "Given an input: ";
+
+    const int MAX = 7;
+    int foo [MAX] = { 4, 5, 6, 4, 1, 6, 5 };
+    
+    //2^l where l = level thus 2^level0= 1, 2^level1 = 2, ..., 2^leveln
+    for(i = 1; i <= MAX; ++i)  
+        insert(&root, foo[i], queue);
     
     levelOrder(root);
     

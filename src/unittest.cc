@@ -11,5 +11,10 @@ namespace {
   TEST(BinartTreeTest, Trivial) {
     EXPECT_EQ(4, solution());
   }
+
+  // Codility Test
+  TEST(CodilityBinaryTree, Trivial) {
+    EXPECT_EQ(3, solution2());
+  }
   
 }

@@ -35,5 +35,5 @@ void insert(struct Node **root, int data, struct Queue *queue);
 void levelOrder(struct Node *root);
 
 int solution();//int solution(int N);
-
+int solution2();
 #endif 
