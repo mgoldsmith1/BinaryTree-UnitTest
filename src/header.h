@@ -1,11 +1,9 @@
 #pragma once
 
-//For C++14
-#include "stdc++.h"
+#include "stdc++.h" //For C++14
 
 #define SIZE 50
 #include<unordered_map>
-
 
 using namespace std;
 
