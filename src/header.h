@@ -1,10 +1,13 @@
-#ifndef HEADER_H
-#define HEADER_H
+#pragma once
+
+//For C++14
+#include "stdc++.h"
 
 #define SIZE 50
 #include<unordered_map>
 
-using  namespace std;
+
+using namespace std;
 
 struct Node {
     int data;
@@ -36,4 +39,3 @@ void levelOrder(struct Node *root);
 
 int solution();//int solution(int N);
 int solution2();
-#endif 

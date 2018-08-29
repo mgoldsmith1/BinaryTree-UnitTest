@@ -1,9 +1,5 @@
 #include "header.h"
 #include "gtest/gtest.h"
-
-// C++ program to find count of distinct nodes
-// on a path with maximum distinct nodes.
-#include "stdc++.h"
  
 int largestUinquePathUtil(Node* node, unordered_map<int, int> m)
 {
