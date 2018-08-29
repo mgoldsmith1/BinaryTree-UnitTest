@@ -7,13 +7,13 @@ int largestUinquePathUtil(Node* node, unordered_map<int, int> m)
         return m.size();
  
     // put this node into hash
-    m[node->data]++;
+    ++m[node->data];
  
     int max_path = max(largestUinquePathUtil(node->left, m),
                        largestUinquePathUtil(node->right, m));
  
     // remove current node from path "hash"
-    m[node->data]--;
+    --m[node->data];
  
     // if we reached a condition where all duplicate value
     // of current node is deleted
